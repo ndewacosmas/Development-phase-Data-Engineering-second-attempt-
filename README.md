@@ -28,14 +28,14 @@ Architecture Implementation
 
 The application is implemented by using three docker containers
 
-.ETL refers the Extract Transformed and loaded in processing area, this container are used to extract data from sources and executed the ETL works by the use of the Python. this works is schedule to change the data every quarter by adding new data as updation of the system. references https://github.com/ndewacosmas/ETL-JOB-DETAILS/blob/main/README.md
+.ETL refers the Extract Transformed and loaded in processing area, this container are used to extract data from sources and executed the ETL works by the use of the Python. this works is schedule to change the data every quarter by adding new data as updation of the system. references https://github.com/ndewacosmas/ETL-JOB-DETAILS-DEVELOPMENT/blob/main/README.md
 
 . Database: the database which are used for the data analysis under this project are PostgreSQL database, according this project this database are used both for analysis and storage of the data.
 
-.ML:is stand for machine learning, according this project machine learning are used to make data analysis also written in Python. this process is scheduleed to label the data and matipulate the table every quarter reference, https://github.com/ndewacosmas/ML-JOB-DETAILS/blob/main/README.md
+.ML:is stand for machine learning, according this project machine learning are used to make data analysis also written in Python. this process is scheduleed to label the data and matipulate the table every quarter reference, https://github.com/ndewacosmas/ML-JOB-DETAILS-DEVELOPMENT-PHASE-SECOND-ATTEMPT-/blob/main/README.md
 
-.Visualization: according this project this area are used to visualize data to show the status of the work which are uploaded references https://github.com/ndewacosmas/Visualization-Job-Details/edit/main/README.md
 
+.Visualization: according this project this area are used to visualize data to show the status of the work which are uploaded references https://github.com/ndewacosmas/Visualization-Job-Details-Development/blob/main/README.md
 
 **Containers Integration**
 The project deployment leaverages Infrastructure as a Code via Docker compose with set dependencies for each containers.
@@ -59,23 +59,24 @@ in order to execute the application and verify the results, the following steps
 
 1. open Github respository and then running by the use of the commang line
 
-   https://github.com/ndewacosmas/Development-phase-Data-Engineering-/blob/main/README.md
+   https://github.com/ndewacosmas/Development-phase-Data-Engineering-second-attempt-/blob/main/README.md
+
    
-3. all files on this project was created at the top of the github and this project wa conducted in the following links
+2. all files on this project was created at the top of the github and this project wa conducted in the following links
    
-5. https://github.com/ndewacosmas/Batch-Data-Processing-Architecture-Application-
+3. https://github.com/ndewacosmas/PHASE-ONE-SECOND-ATTEMPT-/blob/main/README.md
    
-7. https://github.com/ndewacosmas/Batch-Data-Processing-Architecture-Application-/blob/main/README.md
+4. https://github.com/ndewacosmas/ETL-JOB-DETAILS-DEVELOPMENT/blob/main/README.md
 
-8. https://github.com/ndewacosmas/ETL-JOB-DETAILS/blob/main/README.md
+5. https://github.com/ndewacosmas/ML-JOB-DETAILS-DEVELOPMENT-PHASE-SECOND-ATTEMPT-/blob/main/README.md
 
-9. https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
+6. https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data
 
-10. https://github.com/ndewacosmas/ML-JOB-DETAILS/blob/main/README.md
 
-11. https://github.com/ndewacosmas/Visualization-Job-Details/edit/main/README.md
+7. https://github.com/ndewacosmas/Visualization-Job-Details-Development/blob/main/README.md
+   
 
-12. https://github.com/ndewacosmas/Development-phase-Data-Engineering-/blob/main/README.md
+8. https://github.com/ndewacosmas/Development-phase-Data-Engineering-second-attempt-/blob/main/README.md
 
 according this project the links which are mention above it state the work of 
 
@@ -89,7 +90,8 @@ according this project the links which are mention above it state the work of
 and other relatied information.
 
 
-https://github.com/ndewacosmas/Development-phase-Data-Engineerin
+https://github.com/ndewacosmas/Development-phase-Data-Engineering-second-attempt-/blob/main/README.md
+
 
 
 Project: Data Engineering 
@@ -106,11 +108,11 @@ according to this project as structured in the phase one this project had four p
 
 according the system which are proposed in the phase one it show that the data are extracted from source by the use of the microservices of ETL, ETL stand for Extract Transform and Load, this microservices are used to extract data from sources, transform them and load the data into another microservices for the processing. also according of this project ETL process hade a work of updating the data extracted every quarter. in general the programing language of this microservices are Python.
 
-The works of the ETL was conducted into https://github.com/ndewacosmas/ETL-JOB-DETAILS/blob/main/README.md
+The works of the ETL was conducted into https://github.com/ndewacosmas/ETL-JOB-DETAILS-DEVELOPMENT/blob/main/README.md
 
 
 
-according this project the second microservices of application system of the project are pre Processing processing microservices, under this area data which are ingested from was loaded here for the pre-processed and processed by the use of the PostgreSQL data bases and stored, this stages was started after the completion of the ETL stages. all process of the analysis of the data was using the Machine learning (ML).references https://github.com/ndewacosmas/ML-JOB-DETAILS/blob/main/README.md
+according this project the second microservices of application system of the project are pre Processing processing microservices, under this area data which are ingested from was loaded here for the pre-processed and processed by the use of the PostgreSQL data bases and stored, this stages was started after the completion of the ETL stages. all process of the analysis of the data was using the Machine learning (ML).references https://github.com/ndewacosmas/ML-JOB-DETAILS-DEVELOPMENT-PHASE-SECOND-ATTEMPT-/blob/main/README.md
 
 According this projects the area which are used to monitoring the system are status of the application in all stages and this status are used to show where the system is what the difficult are faced by the system during the application.
 
@@ -118,7 +120,8 @@ According this projects the area which are used to monitoring the system are sta
 
 according this project the author state that all status and results of all application was visualized on microservices of the visualization as a Dashboard.
 
-This dashboard show the status and the results of the processed data by the use of the Machine learning (ML). References. https://github.com/ndewacosmas/Visualization-Job-Details/edit/main/README.md
+This dashboard show the status and the results of the processed data by the use of the Machine learning (ML). References. https://github.com/ndewacosmas/Visualization-Job-Details-Development/blob/main/README.md
+
 
 Under this project author started by architecting the  concept of the system which show the pipeline of the movement of data from the sources and transferring to the area of the processessing and then visualizing the processed data into the Dashboard of the system.
 
