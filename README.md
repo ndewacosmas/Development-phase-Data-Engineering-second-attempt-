@@ -36,6 +36,7 @@ The application is implemented by using three docker containers
 
 .Visualization: according this project this area are used to visualize data to show the status of the work which are uploaded references https://github.com/ndewacosmas/Visualization-Job-Details/edit/main/README.md
 
+
 **Containers Integration**
 The project deployment leaverages Infrastructure as a Code via Docker compose with set dependencies for each containers.
 
