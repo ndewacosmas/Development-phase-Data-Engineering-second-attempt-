@@ -2,9 +2,6 @@
 Project: Data Engineering -Development phases second attempt 
 
 
-# Development-phase-Data-Engineering-
-Project: Data Engineering -Development phases
-
 This project consist of a batch processing data application for a data - intensive which include all process which govern the procedure of extracting the Data from Kaggle.com and transforming them into othe microservices which will be used for analysis and storage before transforming them to the viasualization in dashboard.
 
 .The data are extracted from a set of CSV files containing student performance in United States of America which published in 6 year ago (https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data) which had more than 1,000,000 data sets.
